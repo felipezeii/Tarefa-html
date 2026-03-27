@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="style.css">
+    <header>
+        <h1>Bem-vindo à Clínica do Senac</h1>
+    </header>
+    <p>
+    <h4 class="subtitulo">Faça o cadastro para saber mais. </h4>
+    </p>
+    <nav>
+        <ul class="links">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+    </ul>
+    </nav>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="file">Selecionar arquivo</label>
+        <input type="file" id="file" name="arquivo">
+        <Input type="submit" value="Enviar"></Input>
+        <fieldset>
+            <legend>Login</legend>
+            <h3>Dados pessoais</h3>
+            <label>Nome:</label>
+            <input placeholder="Nome" type:text minlength="2" maxlength="50" autofocus>
+            <p> </p>
+            <label>Telefone:</label>
+            <input placeholder="numero" type="tel">
+            <p> </p>
+            <label>E-mail:</label>
+            <input placeholder="email" type="email">
+            <p> </p>
+            <label>CPF:</label>
+            <input placeholder="Cpf" type="text" required pattern="\d{3}.\d{3}.\d{3}-\d{2}" maxlength="14">
+            <h3>Endereço</h3>
+            <label>Endereço completo</label>
+            <input type="text" autocomplete="street-address">
+            <p></p>
+            <label>Logradouro</label>
+            <input type="text">
+            <br>
+            <input type="radio" name="logradouro" value="" id="radio1">
+            <label for="radio1">Rua</label>
+            <br>
+            <input type="radio" name="logradouro" value="" id="radio1">
+            <label for="radio1">Avenida</label>
+            <br>
+            <input type="radio" name="logradouro" value="" id="radio1">
+            <label for="radio1">praça</label>
+            <br>
+            <h3>Informações adicionais</h3>
+            <label>Sexo:</label>
+            <input type="radio" name="sexo" value="1" id="radio1">
+            <label for="feminino">Mulher</label>
+            <input type="radio" name="sexo" value="1" id="radio1">
+            <label for="masculino">Homem</label>
+            <input type="radio" name="sexo" value="1" id="radio1">
+            <label for="">Outros</label>
+            <p> </p>
+            <label>Data:</label>
+            <input type="date">
+            <p> </p>
+            <input type="checkbox" name="opcoes" id="valor1">
+            <label>Bem-estar</label>
+            <br>
+            <input type="checkbox" name="opcoes" id="valor1">
+            <label>Saúde</label>
+            <br>
+            <input type="checkbox" name="opcoes" id="valor1">
+            <label>Bem-estar & Saúde</label>
+            <h3>descrição</h3>
+            <label>descrição</label>
+            <input type="text" minlength="10" maxlength="100">
+            <input type="hidden" id="userID" name="userID" value="1">
+            <input type="button" value="post" name="Clínica Senac">
+
+        </fieldset>
+    </form>
+    <button type="submit">Enviar</button>
+
+</body>
+
+</html>
