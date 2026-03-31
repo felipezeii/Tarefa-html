@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <H1>Cadastro de Participante</H1>
+    <a href="#informacoes basicas">Informações Básicas</a> |
+    <a href="#preferencias">Preferências</a> |
+    <a href="#observacoes">Observações</a>
+
+    <hr>
+    <form>
+        <fieldset>
+            <legend id="informacoes basicas">Informações Básicas</legend>
+
+            <label>Nome Completo:</label>
+            <br>
+            <input type="text">
+            <p> </p>
+            <label> E-mail:</label>
+            <br>
+            <input type="text">
+            <p></p>
+            <label>CPF:</label>
+            <br>
+            <input type="text">
+        </fieldset>
+    </form>
+    <p></p>
+    <form>
+        <fieldset>
+            <legend id="preferencias">Preferências</legend>
+            <label>Escolha sua área de interesse</label>
+            <br>
+            <input type="radio" name="area">
+            <label for="radio1">Inteligência Artificial</label>
+            <br>
+            <input type="radio" name="area">
+            <label for="radio1">Desenvolvimento Web</label>
+            <br>
+            <input type="radio" name="area">
+            <label for="radio1">Games</label>
+            <p></p>
+            <label>Seleciona os tópicos adicionais desejados</label>
+            <br>
+            <input type="checkbox">
+            <label>Machine Learning</label>
+            <br>
+            <input type="checkbox">
+            <label>Cloud</label>
+            <br>
+            <Input type="checkbox">
+            <label>IoT</label>
+        </fieldset>
+    </form>
+    <p></p>
+    <form>
+        <fieldset>
+            <legend id="observacoes">Observações</legend>
+            <textarea rows="10" cols="50"></textarea>
+        </fieldset>
+    </form>
+    <button type="submit">Enviar Cadastro</button>
+
+</body>
+
+</html>
