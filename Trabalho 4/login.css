@@ -1,0 +1,16 @@
+body{
+    background-color: #e2e2e2;
+}
+
+main{
+    background-color: white;
+    justify-self: center;
+    margin-top: 250px;
+    padding: 5%;
+    box-shadow: 1px 3px 14px -2px #000000
+
+}
+    
+button{
+    width: 100%;
+}
