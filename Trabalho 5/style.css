@@ -1,0 +1,193 @@
+main {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 50px;
+    background-color: #d6d6d6;
+}
+
+.card {
+    background-color: #cccdcf;
+    padding: 20px;
+    box-shadow: 0px 0px 15px -1px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+
+}
+
+.card img {
+    width: 100%;
+
+}
+
+.card a {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+nav {
+    background-color: #70706e;
+    text-align: center;
+    word-spacing: 10px;
+    padding: 1px;
+}
+
+nav a {
+    background-color: #70706e;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    background-color: #3d3d3d;
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+
+body {
+    background-color: #e2e2e2;
+}
+
+footer {
+    background-color: #3d3d3d;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.noticias {
+    background-color:#cccdcf;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px -1px rgba(0, 0, 0, 0.6);
+}
+
+.noticias img {
+    width: 100%;
+}
+
+.programadores {
+    display: flex;
+  flex-direction: column;
+    flex-wrap: wrap;
+    background-color:#cccdcf;
+    align-items: center;
+    justify-self: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px -1px rgba(0, 0, 0, 0.6);
+    width: 70%;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.programadores img {
+    width: 100%;
+
+}
+
+.pinscher {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 0px 6px -1px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    width: 50%;
+}
+
+.pinscher img {
+    width: 100%;
+}
+
+.oculos {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 0px 6px -1px rgba(0, 0, 0, 0.6);
+    width: 50%;
+    border-radius: 10px;
+}
+
+.oculos img {
+    width: 100%;
+}
+
+.caramelo {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 0px 6px -1px rgba(0, 0, 0, 0.6);
+    width: 50%;
+    border-radius: 10px;
+}
+
+.caramelo img {
+    width: 100%;
+}
+
+.noticias a {
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.detalhes {
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px -1px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+.detalhes img {
+    width: 100%;
+}
+
+.pinschercaramelo img {
+    width: 100%;
+}
+
+
+.perfilpug img {
+    width: 100%;
+}
+
+.not {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    width: 60%;
+    justify-content: center;
+    box-shadow: 0px 0px 6px -1px rgba(0, 0, 0, 0.6);
+}
+
+.perfilcaramelo img {
+    width: 100%;
+}
+
+.perfilprog{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    width: 70%;
+    box-shadow: 0px 0px 6px -1px rgba(0, 0, 0, 0.6);
+}
+
+.programadores a{
+    margin-top: auto;
+    background-color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 7px;
+    color: white;
+}
+
+.perfilprog img{
+    width: 70%;
+}
