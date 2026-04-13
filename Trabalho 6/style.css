@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(223, 230, 227);
+}
+
+header{
+    background-color: rgb(1, 1, 51);
+    color: white;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+nav{
+    background-color: rgb(1, 1, 100);
+    text-align: center;
+    word-spacing: 10px;
+    padding: 7px;
+}
+
+nav a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer{
+    background-color: rgb(1, 1, 51);
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.card1{
+    background-color: white;
+    width: 50%;
+    text-align: center;
+    justify-self: center;
+    border-radius: 10px;
+    box-shadow: -1px 1px 20px -4px rgba(0,0,0,1);
+    margin: 30px;
+    padding: 1px;
+}
+
+.titulo1{
+    background-color: rgb(194, 245, 245);
+    width: 90%;
+    padding:10px;
+    border-radius: 10px;
+    justify-self: center;
+    height: 10;
+}
+
+.cardg{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 30px;
+    gap: 10px;
+    
+}
+
+
+.card{
+    background-color:rgb(224, 224, 224);
+    width: 80%;
+    border-radius: 10px;
+}
+
+.cardt{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    margin-top: 0;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
