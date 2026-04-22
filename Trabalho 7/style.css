@@ -1,0 +1,385 @@
+body{
+    background-color: rgb(233, 229, 229);
+}
+
+.topo{
+    background-color: #0a1120;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    margin-top: auto;
+    margin-bottom: auto;
+    word-spacing: 10px;
+    margin-right: 50px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    padding: 30px;
+}
+
+.banner{
+    background-color: rgb(49, 49, 235);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.subtitulo{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.quadrado{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 12px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.quadrado img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.quadrado3{
+    background-color: white;
+    padding: 5px;
+    margin: 22px;
+    width: 95%;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.16) 5px 5px 4px;
+}
+
+.card3{
+    background-color: white;
+    padding: 14px;
+    margin: 22px;
+    width: 95%;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.16) 5px 5px 4px;
+}
+
+.quadrado2{
+    background-color: rgb(230, 255, 254);
+    box-shadow: -13px 1px 2px -10px #0084ff;
+    border-radius: 10px;
+}
+
+.dquadrado2{
+    padding: 5px;
+}
+
+.quadradodir1{
+        background-color: white;
+    padding: 5px;
+    margin: 22px;
+    width: 95%;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.16) 5px 5px 4px;
+}
+
+.quadradao2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card2{
+    display: flex;
+    justify-content: center;
+    justify-self: center
+}
+
+.footerarea{
+    background-color: #0a1120;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.parte1{
+    width: 70%;
+    padding: 10px;
+    background-color: white;
+    justify-self: center;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 12px;
+}
+
+.area1{
+    width: 50%;
+    border-radius: 12PX;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 12px;
+    padding: 20px;
+}
+
+.area1 a{
+    color: blue;
+    text-decoration: none;
+}
+
+.area1 h3{
+    margin-top: 0;
+}
+
+.area1 p{
+    margin-top: 0;
+}
+
+.area1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.a1{
+    justify-self: center;
+    display: flex;
+    gap: 30px;
+}
+
+.plano1{
+    background-color:#0a1120;
+    color: white;
+    padding: 20px;
+    width: 85%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.plano2{
+    background-color:#0a1120;
+    color: white;
+    padding: 20px;
+    width: 85%;
+    border-radius: 10px;
+}
+
+.parte2{
+    width: 70%;
+    padding: 10px;
+    background-color: white;
+    justify-self: center;
+    border-radius: 25px;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 12px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.area2{
+    background-color: rgb(230, 255, 254);
+    box-shadow: -13px 1px 2px -10px #0084ff;
+    border-radius: 10px;
+}
+
+.pagina1{
+    background: linear-gradient(90deg, #061440, #062873, #3877FF);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.refs{
+    color: white;
+    padding: 40px;
+    width: 30%;
+}
+
+.l1{
+    background-color: orange;
+    padding: 10px;
+    border-radius: 8px;
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+
+}
+
+.l2{
+    color: white;
+    border-color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px;
+    border: 2px solid white;
+}
+
+.pagina1d{
+    background-color: white;
+    border-radius: 12px;
+    width: 30%;
+    padding: 20px;
+    margin: 30px;
+}
+
+.info{
+    display: flex;
+    gap: 300px;
+    background-color: rgb(219, 245, 255);
+    border-radius: 12px;
+    padding: 5px;
+    margin: 30px;
+}
+
+.info2{
+    display: flex;
+    gap: 300px;
+    background-color: rgb(219, 245, 255);
+    border-radius: 12px;
+    padding: 5px;
+    margin: 28px;
+}
+
+.tricard{
+    width: 50%;
+    justify-self: center;
+    display: flex;
+    gap: 70px;
+}
+
+.tri{
+    justify-self: center;
+}
+
+.tricard1{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.tricard1 a{
+    text-decoration: none;
+}
+
+.tricard1 img{
+    border-radius: 10px;
+}
+
+.tricard2{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.tricard2 a{
+    text-decoration: none;
+}
+
+.tricard2 img{
+    border-radius: 10px;
+}
+
+.tricard3{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.tricard3 a{
+    text-decoration: none;
+}
+
+.tricard3 img{
+    border-radius: 10px;
+}
+
+.pagina2{
+    background-color: rgb(215, 215, 216);
+    padding: 50px;
+    border-radius: 20px;
+    width: 80%;
+    justify-self: center;
+    margin: 30px;
+}
+
+.grid{
+    justify-self: center;
+}
+
+.pc{
+    background-color: rgb(204, 250, 250);
+    border-radius: 20px;
+    padding: 1px;
+
+}
+
+.esquerda{
+    display: flex;
+    justify-content: space-between;
+}
+
+.etapas{
+    background-color: white;
+    padding: 10px;
+    border-radius: 12px;
+    margin: 10px;
+}
+
+.etapa1{
+    background-color: rgb(230, 255, 254);
+    box-shadow: -13px 1px 2px -10px #0084ff;
+    border-radius: 10px;
+}
+
+.etapa2{
+    background-color: rgb(230, 255, 254);
+    box-shadow: -13px 1px 2px -10px #0084ff;
+    border-radius: 10px;
+}
+
+
+.etapa3{
+    background-color: rgb(230, 255, 254);
+    box-shadow: -13px 1px 2px -10px #0084ff;
+    border-radius: 10px;
+}
+
+.areadireita1{
+    background-color: white;
+    padding: 9px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.areadireita2{
+    background-color: white;
+    padding: 9px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.areadireita3{
+    background-color: white;
+    padding: 9px;
+    border-radius: 10px;
+    margin: 10px;
+}
