@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de desconto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="navo">
+        <header>
+        <a href="index.html"> <h1 class="indexh1">Página inicial</h1></a>
+        <p><b>Saiba mais sobre cada link a direita</b></p>
+    </header>
+
+    <nav>
+        <a href="idade.html">Verificador de idade</a>
+        <a href="login.html">Simulador de login</a>
+        <a href="desconto.html">Calculadora de desconto</a>
+        <a href="avaliacao.html">Sistema de avaliação</a>
+        <a href="clima.html">Saiba sobre o clima</a>
+    </nav>
+</div>
+
+    <main class="calculadora">
+        <input type="number" placeholder="valor" id="valor">
+        <br><br>
+        <input type="text" placeholder="Você é vip?" id="vip">
+        <br><br>
+        <input type="text" placeholder="possui cupom?" id="cupom">
+        <br>
+        <p id="pdesconto"></p>
+        <br><br>
+        <button onclick="bdesconto()">Ver valor</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

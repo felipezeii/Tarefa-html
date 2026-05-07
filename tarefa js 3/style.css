@@ -1,0 +1,147 @@
+body{
+    background-color: rgb(224, 224, 224);
+}
+
+.index{
+    background-color: rgb(237, 234, 234);
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px #000000;
+    justify-self: center;
+    text-align: center;
+    padding: 10px;
+    margin-top: 100px;
+}
+.index img{
+    border-radius: 8px
+}
+
+.index a{
+    text-decoration: none;
+    color: rgb(135, 135, 253);
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+}
+
+.Idade{
+    background-color: beige;
+    width: 20%;
+    padding: 30px;
+    border-radius: 10px;
+    justify-self: center;
+    box-shadow: 0px 0px 5px 0px #000000;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 200px;
+}
+
+.Idade input{
+    border-radius: 5px;
+    padding: 4px;
+}
+
+
+.login{
+    background-color: rgb(168, 217, 248);
+    width: 20%;
+    padding: 30px;
+    border-radius: 10px;
+    justify-self: center;
+    box-shadow: 0px 0px 5px 0px #000000;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 200px;
+}
+
+.login p{
+    color: red;
+}
+
+.login button{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.login input{
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.mavaliacao{
+    background-color: rgb(173, 175, 177);
+    width: 20%;
+    padding: 30px;
+    border-radius: 10px;
+    justify-self: center;
+    box-shadow: 0px 0px 5px 0px #000000;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 200px;
+}
+
+.mavaliacao input{
+    border-radius: 5px;
+    padding: 4px;
+} 
+
+.calculadora{
+    background-color: rgb(255, 170, 170);
+    width: 20%;
+    padding: 30px;
+    border-radius: 10px;
+    justify-self: center;
+    box-shadow: 0px 0px 5px 0px #000000;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 200px;
+}
+
+.calculadora input{
+    border-radius: 5px;
+    padding: 4px;
+} 
+
+.navo{
+    background-color: greenyellow;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+    
+}
+.navo p {
+    color: blue;
+}
+.navo a{
+    color: blue;
+    text-decoration: none;
+    display: flex;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.dclima{
+     background-color: rgb(170, 255, 211);
+    width: 20%;
+    padding: 30px;
+    border-radius: 10px;
+    justify-self: center;
+    box-shadow: 0px 0px 5px 0px #000000;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 200px;
+}
+
+.dclima button{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.dclima input{
+    border-radius: 5px;
+    padding: 4px;
+} 
