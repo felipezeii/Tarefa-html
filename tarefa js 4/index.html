@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina js 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Sistema para cadastro de novos produtos</h1>
+    </header>
+
+
+    <main>
+        <div class="tudo">
+            <label for="">Digite o nome:</label>
+            <br>
+            <input type="text" id="nproduto" placeholder="produto">
+            <br> <br>
+            <label for="">Digite o preço:</label>
+            <br>
+            <input type="number" id="pproduto" placeholder="preço">
+            <br> <br>
+            <button onclick=" cadastrarProduto()">Cadastrar produtos</button>
+            <p id="mensagem"></p>
+            <br><br>
+            <button onclick="mostrarProdutos()">Mostrar produtos</button>
+            <br>
+            
+            <h2>Produtos cadastrados</h2>
+            <ul><b>Lista abaixo:</b></ul>
+            <ul id="lista"></ul>
+            <div class="desafio">
+            <p id="quantidade"></p>
+            <p id="valor"></p>
+            <p id="valorb"></p>
+            <p id="valortotal"></p>
+            <button onclick="apagar()">Apagar o ultimo</button>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
