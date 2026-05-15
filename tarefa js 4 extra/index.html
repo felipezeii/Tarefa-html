@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa extra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Controle de estoque simples</h1>
+    </header>
+
+
+    <div class="div1">
+        <h2>Lista de produtos</h2>  
+        <input type="text" name="" id="produto" placeholder="Produto">
+        <br>
+        <input type="text" id="categoria" placeholder="categoria">
+        <br>
+        <input type="number" id="preco" placeholder="preço">
+        <br>
+        <input type="number" id="quantidade" placeholder="quantidade">
+        <br> <br>
+        <button onclick="cadastrar()">Cadastrar</button>
+        <p id="mensagem"></p>
+        <br>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Categoria</th>
+                    <th>Preço</th>
+                    <th>Qnt. Estoque</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+            </tbody>
+        </table>
+        <p id="totalproduto"></p>
+        <p id="totalquantidade" class="qntd"></p>
+        <p id="totalestoque" class="qntd"></p>
+        <p id="barato" class="qntd"></p>
+
+    </div>
+
+    <br>
+
+    <div class="div1">
+        <input type="text" id="pesquisa" placeholder="pesquise">
+        <p id="mostrar"></p>
+        <br>
+        <button onclick="pesquisa()">pesquisar</button>
+        
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Categoria</th>
+                    <th>Preço</th>
+                    <th>Qnt. Estoque</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody id="resultadopesq">
+            </tbody>
+
+
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
