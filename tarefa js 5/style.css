@@ -1,0 +1,119 @@
+.top {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+nav {
+    padding-top: 40px;
+    word-spacing: 10px;
+}
+
+.top a {
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(236, 234, 234);
+}
+
+.indx {
+    background-color: lightgrey;
+    width: 50%;
+    justify-self: center;
+    padding: 50px;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px #000000;
+}
+
+.list {
+    justify-self: center;
+}
+
+.est {
+    background-color: lightgrey;
+    width: 50%;
+    justify-self: center;
+    padding: 50px;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px #000000;
+}
+
+.est input {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.est button {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.caixa {
+    background-color: lightgrey;
+    width: 50%;
+    justify-self: center;
+    padding: 50px;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px #000000;
+}
+
+.caixa input {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.caixa button {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.senha {
+    background-color: lightgrey;
+    width: 50%;
+    justify-self: center;
+    padding: 50px;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px #000000;
+}
+
+.senha input {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.senha button {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.notas {
+    background-color: lightgrey;
+    width: 50%;
+    justify-self: center;
+    padding: 50px;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px #000000;
+}
+
+.notas input{
+padding: 5px;
+    border-radius: 5px;
+}
+
+.notas button{
+    padding: 5px;
+    border-radius: 5px;
+}

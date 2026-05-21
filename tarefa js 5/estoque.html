@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="top">
+        <div>
+            <header>
+                <h1>Atividade For e While</h1>
+            </header>
+            <p> uma de monstração ao lado</p>
+        </div>
+        <div>
+            <nav class="na">
+                <a href="index.html">Início</a>
+                <a href="estoque.html">Estoque</a>
+                <a href="caixa.html">Caixa</a>
+                <a href="senha.html">Senha</a>
+                <a href="notas.html">Notas</a>
+                <a href="conferencia.html">Conferência</a>
+            </nav>
+        </div>
+    </div>
+
+
+    <main class="est">
+        <h2>Sistema de estoque</h2>
+        <p>aperte os botões para cadastrar e mostrar os produtos</p>
+        <br>
+        <input type="text" placeholder="nome do produto" id="nproduto">
+        <p id="dv"></p>
+        <br><br>
+        <button onclick="Cadastrar()">Cadastre</button>
+        <button onclick="Mostrar()">Mostrar</button>
+
+        <ul id="listaestoque">
+
+        </ul>
+    </main>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
