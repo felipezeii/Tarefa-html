@@ -147,14 +147,15 @@ function show() {
 
 valor = []
 function Total() {
-    let total = document.getElementById("total");
-    let inp = parseFloat(document.getElementById("numb").value);
-
+    let total = document.getElementById("total1");
+    let parac = prompt ("digite um valor: ");
     let numb = 0;
+    while(Number(parac) !== 0 ) {
+        numb += Number(parac);
+        parac = prompt("Digite um valor; ");
+    }
+    total.textContent = `Valor ${numb}`;
 
-    if(inp < 0) {
-        total.textContent = "digite algo valido";
-        total.style.color = "red";
-        return;
-    } 
+    
+
 }
